@@ -1,0 +1,13 @@
+﻿<UserControl 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Zenon_Pdf_List="clr-namespace:Zenon_Pdf_List;assembly=Zenon_Pdf_List" 
+             >
+    <Grid x:Name="MainGrid">
+
+        <Zenon_Pdf_List:Pdf_List_Selection_UC Name="PDF_List_Selection" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Width="auto" Height="auto"/>
+
+    </Grid>
+</UserControl>
